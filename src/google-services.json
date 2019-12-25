@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "424960095144",
+    "firebase_url": "https://cmbot-3c406.firebaseio.com",
+    "project_id": "cmbot-3c406",
+    "storage_bucket": "cmbot-3c406.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424960095144:android:2e07dba5c7e5789d",
+        "android_client_info": {
+          "package_name": "com.cm.BOT1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424960095144-g1aj9mevnclr6r1p13mhv3oq9f29m0ji.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4Hf44v7WPrDaZXs5MUettOH0FP8HMwfM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424960095144-pibi5g1er7d15e6d31gs18oolt5enup5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
