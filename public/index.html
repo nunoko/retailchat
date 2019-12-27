@@ -25,7 +25,7 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>RetailBot for Liff v2</title>
-    
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
@@ -84,7 +84,7 @@
         document.getElementById('deviceOS').innerHTML = '<b>OS:</b> ' +liff.getOS();
     }
     liff
-    .init({ liffId: "1636541598-g7NE9lBj" }, () => {
+    .init({ liffId: "1653696336-xNAO55Pk" }, () => {
       if (liff.isLoggedIn()) {
         runApp()
         displayLiffData()

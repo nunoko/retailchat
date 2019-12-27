@@ -17,11 +17,11 @@ exports.webhook = functions
     console.log("LINE REQUEST BODY", JSON.stringify(req.body));
 
     //[0] ดึงข้อมูลจาก request message ที่มาจาก LINE
-    const replyToken = req.body.event[0].replyToken;
+    const replyToken = req.body.events[0].replyToken;
     const messages = [
         {
-            "type":"text",
-            "text":req.body.events[0].messages.text
+            type: 'text',
+            text: req.body.events[0].message.text,
         }
     ];
 
