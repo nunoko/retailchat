@@ -1,0 +1,236 @@
+{
+  "line": {
+    "type": "flex",
+    "altText": "Flex Message",
+    "contents": {
+      "type": "carousel",
+      "contents": [
+        {
+          "type": "bubble",
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://pocketkpi1.web.app/images/guide/guide1.png",
+                "size": "4xl",
+                "aspectMode": "cover",
+                "aspectRatio": "3.4:6.6",
+                "gravity": "top"
+              }
+            ],
+            "paddingAll": "0px"
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "1. แตะที่ ดูรายงาน KPI บนเมนูหลัก",
+                "color": "#464949",
+                "size": "sm",
+                "wrap": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://pocketkpi1.web.app/images/guide/guide2.png",
+                "size": "4xl",
+                "aspectMode": "cover",
+                "aspectRatio": "3.4:6.6",
+                "gravity": "top"
+              }
+            ],
+            "paddingAll": "0px"
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "2. กรอกข้อมูลเพื่อยืนยันตัวตนครั้งแรก",
+                "color": "#464949",
+                "size": "sm",
+                "wrap": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://pocketkpi1.web.app/images/guide/guide3.png",
+                "size": "4xl",
+                "aspectMode": "cover",
+                "aspectRatio": "3.4:6.6",
+                "gravity": "top"
+              }
+            ],
+            "paddingAll": "0px"
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "3. ดูข้อมูล KPI สะสม และ Ranking",
+                "color": "#464949",
+                "size": "sm",
+                "wrap": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://pocketkpi1.web.app/images/guide/guide4.png",
+                "size": "4xl",
+                "aspectMode": "cover",
+                "aspectRatio": "3.4:6.6",
+                "gravity": "top"
+              }
+            ],
+            "paddingAll": "0px"
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "4. ดูข้อมูล KPI แต่ละเดือนย้อนหลัง",
+                "color": "#464949",
+                "size": "sm",
+                "wrap": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://pocketkpi1.web.app/images/guide/guide5.png",
+                "size": "4xl",
+                "aspectMode": "cover",
+                "aspectRatio": "3.4:6.6",
+                "gravity": "top"
+              }
+            ],
+            "paddingAll": "0px"
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "5. ดูข้อมูลคะแนนแต่ละด้านในรูปแบบ radar chart",
+                "color": "#464949",
+                "size": "sm",
+                "wrap": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://pocketkpi1.web.app/images/guide/guide6.png",
+                "size": "4xl",
+                "aspectMode": "cover",
+                "aspectRatio": "3.4:6.6",
+                "gravity": "top"
+              }
+            ],
+            "paddingAll": "0px"
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "6. แตะดู Ranking และรายละเอียดของพนักงานในสาขา",
+                "color": "#464949",
+                "size": "sm",
+                "wrap": true
+              }
+            ]
+          }
+        },
+        {
+          "type": "bubble",
+          "body": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://pocketkpi1.web.app/images/guide/pkpi.png",
+                "size": "4xl",
+                "aspectMode": "fit",
+                "aspectRatio": "3.4:6.6",
+                "gravity": "top"
+              }
+            ],
+            "paddingAll": "0px"
+          },
+          "footer": {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "button",
+                "action": {
+                  "type": "message",
+                  "label": "กดเพื่อดูวีดีโอแนะนำการใช้งาน",
+                  "text": "ดูวีดีโอ"
+                },
+                "style": "primary",
+                "color": "#e7707a"
+              }
+            ]
+          },
+          "action": {
+            "type": "message",
+            "label": "กดเพื่อดูวีดีโอแนะนำการใช้งาน",
+            "text": "ดูวีดีโอ"
+          }
+        }
+      ]
+    }
+  }
+}

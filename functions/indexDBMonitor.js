@@ -383,6 +383,8 @@ exports.dbMonitor = functions
     const previousValue = change.before.data();
     //[18] ส่ง flex message เพื่อเรียกลูกค้ามารับกาแฟ
     if(previousValue.status === 0 && newValue.status === 1){
+      
+      
       const orderNoStr = newValue.orderNo.toString().padStart(4, "0");
       let flexCallOrder =  {
         "type": "flex",
@@ -417,7 +419,7 @@ exports.dbMonitor = functions
               "contents": [
                 {
                   "type": "text",
-                  "text": "Order Completed",
+                  "text": "Order Number",
                   "size": "xxl",
                   "weight": "bold"
                 },
